@@ -1,0 +1,12 @@
+name: rag
+channels:
+  - conda-forge
+dependencies:
+  - jupyter
+  - sentence-transformers
+  - faiss-cpu
+  - transformers
+  - langchain
+  - langchain-community
+  - langchain-huggingface
+  - langchain-openai
