@@ -1,12 +1,19 @@
-name: rag
+name: rag_ds9
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
   - jupyter
-  - sentence-transformers
-  - faiss-cpu
-  - transformers
-  - langchain
-  - langchain-community
-  - langchain-huggingface
-  - langchain-openai
+
+  - pip
+  - pip:
+      - sentence-transformers
+      - faiss-cpu
+      - transformers
+      - langchain
+      - langchain-core
+      - langchain-community
+      - langchain-openai
+      - langchain-huggingface
+      - huggingface-hub
+      - accelerate
